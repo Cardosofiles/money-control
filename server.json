@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "type": "income",
+      "category": "Venda",
+      "price": 15000,
+      "createdAt": "2024-10-03T21:42:50.214Z"
+    },
+    {
+      "id": 2,
+      "description": "Ifood Hambúrguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 80,
+      "createdAt": "2024-10-03T21:30:50.214Z"
+    },
+    {
+      "id": 3,
+      "description": "Compra de Monitor",
+      "type": "outcome",
+      "category": "Tecnologia",
+      "price": 1200,
+      "createdAt": "2024-10-04T10:15:00.214Z"
+    },
+    {
+      "id": 4,
+      "description": "Consultoria de Marketing",
+      "type": "income",
+      "category": "Serviços",
+      "price": 5000,
+      "createdAt": "2024-10-04T15:20:30.214Z"
+    },
+    {
+      "id": 5,
+      "description": "Aluguel do Escritório",
+      "type": "outcome",
+      "category": "Despesas Fixas",
+      "price": 2500,
+      "createdAt": "2024-10-05T09:00:00.214Z"
+    }
+  ]
+}
