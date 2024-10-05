@@ -13,10 +13,10 @@ import {
 } from "./styles";
 
 const newTransactionFormSchema = z.object({
-  description: z.string().min(3).max(100),
-  price: z.number().min(0.01),
-  category: z.string().min(3).max(50),
-  type: z.enum(["income", "outcome"]), // default value for missing fields
+  description: z.string(),
+  price: z.number(),
+  category: z.string(),
+  type: z.enum(["income", "outcome"]),
 });
 
 type newTransactionFormInputs = z.infer<typeof newTransactionFormSchema>;
