@@ -84,7 +84,7 @@ export const TransactionType = styled(RadioGroup.Root)`
 `;
 
 interface TransactionTypeButtonProps {
-  variant?: "income" | "outcome";
+  variant: "income" | "outcome";
 }
 export const TransactionTypeButton = styled(
   RadioGroup.Item
@@ -123,8 +123,5 @@ export const TransactionTypeButton = styled(
     svg {
       color: ${(props) => props.theme["white"]};
     }
-  }
-
-  &:hover {
   }
 `;

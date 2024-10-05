@@ -26,9 +26,8 @@ export const NewTrasactionButton = styled.button`
   border-radius: 6px;
   cursor: pointer;
 
-  transition: background-color 0.3s;
-
   &:hover {
     background: ${(props) => props.theme["green-700"]};
+    transition: background-color 0.3s;
   }
 `;
