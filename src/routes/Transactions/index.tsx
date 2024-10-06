@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { Header } from "../../components/Header";
 import { Sumarry } from "../../components/Summary";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
-import { priceFormatter } from "../../utils/formatter";
+import { dateFormatter, priceFormatter } from "../../utils/formatter";
 import { SearchForm } from "./components/SearchForm";
 import {
   PriceHighlight,
@@ -35,7 +35,9 @@ export function Transactions() {
                     </PriceHighlight>
                   </td>
                   <td>{transaction.category}</td>
-                  <td>{transaction.createdAt}</td>
+                  <td>
+                    {dateFormatter.format(new Date(transaction.createdAt))}
+                  </td>
                 </tr>
               );
             })}

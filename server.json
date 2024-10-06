@@ -39,6 +39,30 @@
       "category": "Despesas Fixas",
       "price": 2500,
       "createdAt": "2024-10-05T09:00:00.214Z"
+    },
+    {
+      "description": "Jogo",
+      "price": 159,
+      "category": "Diversão",
+      "type": "outcome",
+      "createdAt": "2024-10-06T10:02:22.844Z",
+      "id": 6
+    },
+    {
+      "description": "Smartphone Galaxy s23",
+      "price": 3399,
+      "category": "Comunicação",
+      "type": "outcome",
+      "createdAt": "2024-10-06T10:10:46.318Z",
+      "id": 7
+    },
+    {
+      "description": "Desenvolvimento de Web Portfólio",
+      "price": 3500,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-10-06T10:26:29.426Z",
+      "id": 8
     }
   ]
 }
