@@ -63,6 +63,22 @@
       "type": "income",
       "createdAt": "2024-10-06T10:26:29.426Z",
       "id": 8
+    },
+    {
+      "description": "PC",
+      "price": 12999,
+      "category": "Trabalho",
+      "type": "outcome",
+      "createdAt": "2024-10-06T11:47:29.853Z",
+      "id": 9
+    },
+    {
+      "description": "Desenvolvimento de Site",
+      "price": 7850,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-10-06T11:48:13.339Z",
+      "id": 10
     }
   ]
 }
